@@ -1,0 +1,101 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(216, 239, 174);
+    color: white;
+    font-weight: 400;
+
+}
+.head{
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    text-decoration:  none;
+    align-items:center;
+    background-color: transparent;
+    width: 100%;
+    padding: 20px 30px 20px 20px;
+}
+.logo{
+    color: rgb(152, 30, 30);
+    font-size: 40px;
+    font-weight: 640;
+}
+.nav a {
+text-decoration: none;
+font-size: 16px;
+color: rgb(1, 94, 94);
+padding: 10px 5px 10px;
+font-weight: 550;
+
+}
+.Main{
+    position: absolute;
+    
+    background-color:transparent;
+    color: rgb(89, 31, 31);
+    padding: 10px;
+    width: 500px;
+    top: 280px;
+    font-size: 35px;
+    font-weight: 600;
+}
+.Main p {
+    padding: 10px;
+}
+input{
+    padding: 10px 10px 10px 300px;
+    
+}
+.Main input::placeholder{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 12px;
+}
+.Main label{
+    color: black;
+    padding:1px ;
+    font-weight: 100;
+    font-size: 25px;
+}
+.button{
+    color: bisque;
+    background-color: red;
+    size: 20px;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    
+
+}
+.Footer{
+    display: flex;
+    justify-content: space-between;
+    padding:10px ;
+    font-size: 18px;
+    color: black;
+    position: absolute;
+    top: 700px;
+    width: 420px;
+    height: 60px;
+    /* background-color: yellow; */
+}
+.Footer a{
+    color: red;
+   
+}
+.image{
+    display: flex;
+    position: absolute;
+    top: 60px;
+    right:900px;
+    width: 645px;
+    height: 440px;
+    border-radius:20px;
+    border: solid black;
+    box-shadow: 20px 20px rgb(68, 66, 66);
+}
